@@ -10,7 +10,7 @@ module.exports = (app, db) => {
     });
 
     app.post('/notes', (req, res) => {  
-        res.send('You create a note !');
+        res.send('You created a note !');
     });
 
     app.put('/notes', (req, res) => {  
@@ -19,6 +19,6 @@ module.exports = (app, db) => {
 
     app.delete('/notes/:id', (req, res) => {  
         const id = req.params.id;
-        res.send(`You deleted note ${id} !`);
+        res.send(`You deleted note: ${id} !`);
     });
 }

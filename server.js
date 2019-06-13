@@ -5,7 +5,7 @@ const port = 54321;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Call index to load all routes with our app vaiable.
+// Call index to load all routes with our app variable.
 const routes = require('./app/routes');
 routes.initAllRoutes(app, {});
 
