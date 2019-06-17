@@ -32,7 +32,7 @@ In a terminal type:
     }
 ]
 ```
-**GET** http://localhost:54321/notes/**2**
+**GET** http://localhost:54321/notes/2
 
 *Result body*
 ```json
@@ -95,7 +95,7 @@ In a terminal type:
     }
 ]
 ```
-**DELETE** http://localhost:54321/notes/**2**
+**DELETE** http://localhost:54321/notes/2
 
 *Result body*
 ```json
